@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+input[type=text], select{
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border:1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+input[type=password], select{
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border:1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+
+button{
+  width:10%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+ 
+.header{
+  width:95%;
+  background-color: rgb(7, 2, 71);
+  color: white;
+  padding: 1px 20px;
+  
+}
+ 

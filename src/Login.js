@@ -1,4 +1,5 @@
 import React,{useState} from "react";
+import './App.css';
 function Login() {
     const [user,setUser]=useState("");
     const [password,setPassword]=useState("");
@@ -40,7 +41,7 @@ function Login() {
     }
     return (
         <div>
-            <h1>Login</h1>
+            <h1 class ="header">Login</h1>
             <form onSubmit={loginHandle}>
             <input type="text" placeholder="Enter your user id" onChange={userHandler}/>{userErr?<span>User not valid</span>:""}
             <br></br>
